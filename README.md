@@ -1,4 +1,5 @@
-#Basic game
+# Basic game
+
 This basic game has been made using Pygame and following the online tutorial "The ultimate introduction to Pygame"
 
 Here is the link to the Pygame tutorial I have followed
