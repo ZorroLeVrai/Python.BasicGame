@@ -1,9 +1,11 @@
 # Example file showing a circle moving on screen
 import pygame
 
+screen_size = (1280, 720)
+
 # pygame setup
 pygame.init()
-screen = pygame.display.set_mode((1280, 720))
+screen = pygame.display.set_mode(screen_size)
 clock = pygame.time.Clock()
 running = True
 dt = 0
@@ -39,5 +41,4 @@ while running:
     # dt is delta time in seconds since last frame, used for framerate-
     # independent physics.
     dt = clock.tick(60) / 1000
-
 pygame.quit()
